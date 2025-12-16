@@ -151,7 +151,7 @@ GitHub – version control and reproducibility
 Copy code
 ai-lead-scoring-agent/
 │
-├── src/
+├── source code/
 │   ├── identification.py   # Lead identification logic
 │   ├── enrichment.py       # Research & funding enrichment
 │   ├── scoring.py          # Rule-based scoring
