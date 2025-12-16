@@ -24,7 +24,8 @@ The pipeline is orchestrated by `run_pipeline.py`, which wires together four seq
 ```python
 people = identify_people("data/raw/people_profiles.csv")
 enriched = enrich_people(people)
-final = rank_and_export(enriched)
+final = rank_and_export(enriched)```
+
 Pipeline Stages
 Identification – Filters professionals based on role relevance.
 
@@ -38,11 +39,11 @@ Ranking & Publishing – Produces a ranked CSV and Streamlit dashboard.
 Stage 1: Identification
 Professionals are selected based on role relevance using domain-specific keywords such as toxicology, safety, and preclinical.
 
-python
+```python
 Copy code
 df["relevant"] = df["job_title"].str.lower().apply(
     lambda x: any(k in x for k in TARGET_KEYWORDS)
-)
+)```
 Stage 2: Enrichment
 Each profile is enriched with:
 
