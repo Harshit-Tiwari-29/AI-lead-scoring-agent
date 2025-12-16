@@ -24,8 +24,8 @@ The pipeline is orchestrated by `run_pipeline.py`, which wires together four seq
 ```python
 people = identify_people("data/raw/people_profiles.csv")
 enriched = enrich_people(people)
-final = rank_and_export(enriched)```
-
+final = rank_and_export(enriched)
+```
 Pipeline Stages
 Identification – Filters professionals based on role relevance.
 
@@ -43,7 +43,8 @@ Professionals are selected based on role relevance using domain-specific keyword
 Copy code
 df["relevant"] = df["job_title"].str.lower().apply(
     lambda x: any(k in x for k in TARGET_KEYWORDS)
-)```
+)
+```
 Stage 2: Enrichment
 Each profile is enriched with:
 
@@ -51,10 +52,11 @@ Publication activity (research intent)
 
 Company funding stage (budget signal)
 
-python
+```python
 Copy code
 df = people_df.merge(publications, on="person_id", how="left")
 df = df.merge(funding, on="company", how="left")
+```
 To avoid column ambiguity during joins, merged fields are normalized into:
 
 job_title
@@ -70,9 +72,10 @@ ML-based scoring (probabilistic intent estimation)
 
 These are blended into a final score.
 
-python
+```python
 Copy code
 final_score = 0.5 * rule_score + 0.5 * ml_score
+```
 🧠 Scoring Logic Breakdown
 Rule-Based Scoring (Explainable Business Logic)
 The rule-based score encodes domain knowledge and commercial relevance.
@@ -85,10 +88,11 @@ Biotech hub	Boston, Cambridge, Basel, San Diego	+10
 
 Maximum rule-based score: 100
 
-python
+```python
 Copy code
 if row["recent_research"] == 1:
     score += 40
+```
 Machine Learning Scoring (Probability Estimation)
 A Logistic Regression model estimates the likelihood that a lead is high-intent based on engineered features:
 
@@ -100,17 +104,19 @@ Research activity (recent_research)
 
 Location hub (hub_location)
 
-python
+```python
 Copy code
 model.predict_proba(X)[:, 1]
+```
 The probability output is scaled to a 0–100 score.
 
 Hybrid Final Score
 To balance explainability and robustness, the final score blends both approaches:
 
-python
+```python
 Copy code
 final_score = 0.5 * rule_score + 0.5 * ml_score
+```
 This mirrors real-world lead-scoring systems used in CRM and sales intelligence platforms.
 
 🧠 Key Design Decisions & Problems Solved
@@ -141,7 +147,7 @@ Streamlit – interactive dashboard
 GitHub – version control and reproducibility
 
 📁 Project Structure
-powershell
+```powershell
 Copy code
 ai-lead-scoring-agent/
 │
@@ -161,30 +167,35 @@ ai-lead-scoring-agent/
 ├── run_pipeline.py         # End-to-end pipeline runner
 ├── requirements.txt
 └── README.md
+```
 🔧 Local Setup
 Clone and create a virtual environment:
 
-bash
+```bash
 Copy code
 git clone <repo-url>
 cd ai-lead-scoring-agent
 python -m venv .venv
 source .venv/bin/activate
+```
 Install dependencies:
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
+```
 Run the pipeline:
 
-bash
+```bash
 Copy code
 python run_pipeline.py
+```
 Launch the dashboard:
 
-bash
+```bash
 Copy code
 streamlit run app.py
+```
 📡 Reproducibility & Compliance
 No private or scraped data
 
