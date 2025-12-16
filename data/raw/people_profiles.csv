@@ -1,1 +1,51 @@
-
+person_id,name,title,company,person_location,company_hq,email,linkedin
+1,Emily Carter,Director of Toxicology,NeuroGenix,Boston,Cambridge,emily@neurogenix.com,linkedin.com/in/emilycarter
+2,Rajiv Menon,Senior Scientist Toxicology,HepaLife Sciences,San Diego,San Diego,rajiv@hepalife.com,linkedin.com/in/rajivmenon
+3,Anna Muller,Head of Preclinical Safety,BioNova AG,Basel,Basel,anna@bionova.com,linkedin.com/in/annamuller
+4,Laura Chen,VP Safety Assessment,LiverTech Inc,Cambridge,Cambridge,laura@livertech.com,linkedin.com/in/laurachen
+5,Mark Thompson,Director Safety Pharmacology,HepatoWorks,Boston,Boston,mark@hepatoworks.com,linkedin.com/in/markthompson
+6,Sofia Rossi,Principal Scientist Toxicology,BioAdvance,San Diego,San Diego,sofia@bioadvance.com,linkedin.com/in/sofiarossi
+7,Amit Sharma,Head of Translational Safety,GenomicX,Bangalore,Boston,amit@genomicx.com,linkedin.com/in/amitsharma
+8,Claire Dubois,Director Preclinical Research,NeoThera,Paris,Paris,claire@neothera.com,linkedin.com/in/clairedubois
+9,Michael Lee,Senior Director Toxicology,HepatoGen,Bay Area,Bay Area,michael@hepatogen.com,linkedin.com/in/michaellee
+10,Nina Patel,Scientist Toxicology,EarlyBio Labs,Chicago,Chicago,nina@earlybio.com,linkedin.com/in/ninapatel
+11,Thomas Wright,VP Preclinical Safety,LiverNova,Cambridge,Cambridge,thomas@livernova.com,linkedin.com/in/thomaswright
+12,Helena Fischer,Director Safety Sciences,BioCore AG,Basel,Basel,helena@biocore.com,linkedin.com/in/helenafischer
+13,Carlos Mendes,Senior Scientist Hepatic Models,HepaNext,Sao Paulo,Boston,carlos@hepanext.com,linkedin.com/in/carlosmendes
+14,Olivia Brown,Head of Investigative Toxicology,TheraLabs,Boston,Boston,olivia@theralabs.com,linkedin.com/in/oliviabrown
+15,Wei Zhang,Associate Director Toxicology,PharmaZen,Shanghai,Shanghai,wei@pharmazen.com,linkedin.com/in/weizhang
+16,Daniel Kim,Director Drug Safety,HepatoCare,Bay Area,Bay Area,daniel@hepatocare.com,linkedin.com/in/danielkim
+17,Isabelle Martin,Principal Toxicologist,BioInsight,London,London,isabelle@bioinsight.com,linkedin.com/in/isabellemartin
+18,Rahul Verma,Senior Scientist Safety,NovoBio,Pune,Boston,rahul@novobio.com,linkedin.com/in/rahulverma
+19,Sarah Wilson,VP Safety & Risk Assessment,LiverSafe,Cambridge,Cambridge,sarah@liversafe.com,linkedin.com/in/sarahwilson
+20,Peter Novak,Director Preclinical Toxicology,BioVector AG,Zurich,Zurich,peter@biovector.com,linkedin.com/in/peternovak
+21,Ana Silva,Scientist Toxicology,HepaFlow,Porto,Porto,ana@hepaflow.com,linkedin.com/in/anasilva
+22,Robert Green,Senior Director Safety Sciences,MedHep,Boston,Boston,robert@medhep.com,linkedin.com/in/robertgreen
+23,Elena Ivanova,Head of Toxicology,RusBioTech,Moscow,Moscow,elena@rusbiotech.com,linkedin.com/in/elenivanova
+24,James Collins,Director Translational Toxicology,OncoLiver,Bay Area,Bay Area,james@oncoliver.com,linkedin.com/in/jamescollins
+25,Yuki Tanaka,Principal Scientist Safety,HepaCore,Tokyo,Tokyo,yuki@hepacore.com,linkedin.com/in/yukitanaka
+26,Fatima Noor,Senior Scientist Toxicology,BioAxis,Dubai,Dubai,fatima@bioaxis.com,linkedin.com/in/fatimanoor
+27,Lucas Meyer,Director Preclinical Safety,TheraGen,Berlin,Berlin,lucas@theragen.com,linkedin.com/in/lucasmeyer
+28,Ayesha Khan,Associate Director Toxicology,HepaBridge,Lahore,Boston,ayesha@hepabridge.com,linkedin.com/in/ayeshakhan
+29,Kevin ONeill,VP Drug Safety,BioHep Solutions,Cambridge,Cambridge,kevin@biohep.com,linkedin.com/in/kevinoneill
+30,Jonathan Reed,Senior Scientist Toxicology,HepatoRx,San Diego,San Diego,jonathan@hepatorx.com,linkedin.com/in/jonathanreed
+31,Maria Gomez,Director Safety Assessment,LiverPoint,Madrid,Madrid,maria@liverpoint.com,linkedin.com/in/mariagomez
+32,Andreas Koch,Head of Preclinical Toxicology,BioStruct AG,Munich,Munich,andreas@biostruct.com,linkedin.com/in/andreaskoch
+33,Simran Kaur,Senior Scientist Hepatic Safety,BioLiver,Chandigarh,Boston,simran@bioliver.com,linkedin.com/in/simrankaur
+34,David Miller,Director Investigative Toxicology,HepatoDynamics,Boston,Boston,david@hepatodynamics.com,linkedin.com/in/davidmiller
+35,Chloe Bernard,Principal Scientist Safety,TheraBio,Lyon,Lyon,chloe@therabio.com,linkedin.com/in/chloebernard
+36,Hiroshi Nakamura,Senior Director Toxicology,HepaSystems,Osaka,Osaka,hiroshi@hepasystems.com,linkedin.com/in/hiroshinakamura
+37,Paolo Ricci,Head of Safety Sciences,BioMedica,Milano,Milano,paolo@biomedica.com,linkedin.com/in/paoloricci
+38,Ahmed Hassan,Associate Director Preclinical Safety,HepatoLab,Cairo,Cairo,ahmed@hepatolab.com,linkedin.com/in/ahmedhassan
+39,Susan Clark,Director Drug Safety,LiverCore,Bay Area,Bay Area,susan@livercore.com,linkedin.com/in/susanclark
+40,Victor Alvarez,Senior Scientist Toxicology,HepaQuest,Mexico City,Mexico City,victor@hepaquest.com,linkedin.com/in/victoralvarez
+41,Irene Kowalski,VP Preclinical Safety,BioTox Solutions,Warsaw,Warsaw,irene@biotox.com,linkedin.com/in/irenekowalski
+42,Matthew Scott,Principal Toxicologist,PharmaHep,Boston,Boston,matthew@pharmahep.com,linkedin.com/in/matthewscott
+43,Neha Joshi,Senior Scientist Safety,HepaInsights,Hyderabad,Boston,neha@hepainsights.com,linkedin.com/in/nehajoshi
+44,Thomas Becker,Director Toxicology,BioRisk AG,Hamburg,Hamburg,thomas@biorisk.com,linkedin.com/in/thomasbecker
+45,Laura Sanchez,Head of Safety Pharmacology,LiverPath,Barcelona,Barcelona,laura@liverpath.com,linkedin.com/in/laurasanchez
+46,Eric Johnson,Senior Director Preclinical Safety,HepatoLogic,Cambridge,Cambridge,eric@hepatologic.com,linkedin.com/in/ericjohnson
+47,Minseo Park,Scientist Toxicology,BioHep Korea,Seoul,Seoul,minseo@biohepkr.com,linkedin.com/in/minseopark
+48,Omar Farooq,Associate Director Safety,BioLiverX,Karachi,Boston,omar@bioliverx.com,linkedin.com/in/omarfarooq
+49,Natalie Evans,Principal Scientist Toxicology,HepatoNova,Bay Area,Bay Area,natalie@hepatonova.com,linkedin.com/in/natalieevans
+50,George Papadopoulos,Director Preclinical Research,BioHep Europe,Athens,Athens,george@biohepeu.com,linkedin.com/in/georgepapadopoulos
