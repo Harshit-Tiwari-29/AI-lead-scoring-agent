@@ -196,25 +196,3 @@ Launch the dashboard:
 Copy code
 streamlit run app.py
 ```
-📡 Reproducibility & Compliance
-No private or scraped data
-
-No LinkedIn scraping
-
-Deterministic, inspectable pipeline
-
-Fully reproducible outputs
-
-Designed for easy verification by assignment reviewers
-
-☁️ Deployment
-The application is deployed publicly using Streamlit Community Cloud, allowing reviewers to verify results without local setup.
-
-🎯 Design Philosophy
-Business-first scoring logic
-
-Explainable machine learning
-
-Modular, production-style structure
-
-Focus on ranking quality and clarity
