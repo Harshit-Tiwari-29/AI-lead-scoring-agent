@@ -9,7 +9,7 @@ The system identifies relevant professionals, enriches them with research and fu
 ## 📊 Live Demo Output
 
 **Public Streamlit Dashboard (Reproducible Output)**  
-👉 https://ai-lead-scoring-agent.streamlit.app
+👉 [https://ai-lead-scoring-agent.streamlit.app](https://ai-lead-scoring-agent-bfr8huxyasazwavbuumqpr.streamlit.app/)
 
 The dashboard allows interactive filtering and inspection of ranked leads, making results easy to verify without running the code locally.
 
